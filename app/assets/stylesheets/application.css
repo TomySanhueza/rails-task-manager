@@ -13,3 +13,92 @@
  *= require_tree .
  *= require_self
  */
+ul.task-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+.tasks {
+    align-items: center;
+    padding-left: 40px;
+}
+
+.detail {
+  border: 1px solid #ccc;   /* borde gris */
+  padding: 10px;            /* espacio interno */
+  background-color: #f9f9f9;/* color de fondo */
+  border-radius: 5px;       /* bordes redondeados */
+  font-family: sans-serif;
+}
+
+a {
+  font-family: sans-serif;
+}
+
+.quote {
+  font-family: sans-serif;
+}
+
+/* Contenedor del form */
+.task-form {
+  max-width: 500px;
+  margin: 5px;
+  font-family: sans-serif;
+}
+
+/* Labels */
+.task-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Inputs y textarea */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Botón */
+.btn {
+  background-color: #007bff;   /* azul */
+  color: white;
+  padding: 6px 12px;           /* más pequeño */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;       /* quita el subrayado */
+  display: inline-block;       /* evita que se estire */
+}
+
+
+.btn:hover {
+  background-color: #0056b3;   /* azul más oscuro */
+}
+
+/* Link */
+.back-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+a.btn {
+  display: inline-block;     /* que se vea como botón */
+  text-decoration: none;     /* quita el subrayado */
+  font-size: 14px;           /* más pequeño */
+  padding: 6px 12px;         /* menos padding */
+}
